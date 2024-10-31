@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class SmallestMissingPositiveInteger {
     public static int searchInSortedArray(int[] input) {
+        System.out.println("searchInSortedArray");
         for (int i = 0; i < input.length; i++) {
             if (i != input[i]) {
                 return i;
@@ -19,6 +20,7 @@ public class SmallestMissingPositiveInteger {
     }
 
     public static int searchInUnsortedArrayBooleanArray(int[] input) {
+        System.out.println("searchInUnsortedArrayBooleanArray");
         boolean[] flags = new boolean[input.length];
         for (int number : input) {
             if (number < flags.length) {
