@@ -23,6 +23,7 @@ public class TextSearchAlgorithms {
     }
 
     public static int simpleTextSearch(char[] pattern, char[] text) {
+        System.out.println("simpleTextSearch started");
         int patternSize = pattern.length;
         int textSize = text.length;
 
